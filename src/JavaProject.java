@@ -8,7 +8,7 @@ public class JavaProject {
         System.out.println("Hello World, aprendendo novamente java");
         System.out.println(home + " " + house);
         System.out.println("Testando o git");
-        System.out.println("Testando main mais atualizado do que o branch Teste")
+        System.out.println("Testando main mais atualizado do que o branch Teste");
     }
 
 
