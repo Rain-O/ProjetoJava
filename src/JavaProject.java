@@ -6,6 +6,7 @@ public class JavaProject {
         home = "Ola mundo do";
         //Testando o programa
         System.out.println("Hello World, aprendendo novamente java");
+        System.out.println(home + " " + house);
     }
 
 
