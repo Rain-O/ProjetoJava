@@ -7,6 +7,7 @@ public class JavaProject {
         //Testando o programa
         System.out.println("Hello World, aprendendo novamente java");
         System.out.println(home + " " + house);
+        System.out.println("Testando o git");
     }
 
 
