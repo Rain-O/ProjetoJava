@@ -1,15 +1,21 @@
 public class JavaProject {
-
+// Funções aula 07
     public static void main(String[] args) {
-        String home;
-        int house = 7;
-        home = "Ola mundo do";
-        //Testando o programa
-        System.out.println("Hello World, aprendendo novamente java");
-        System.out.println(home + " " + house);
-        System.out.println("Testando o git");
-        System.out.println("Testando main mais atualizado do que o branch Teste");
+    int number = 10;
+    sum(10, 15);
+    sum(15, 20);
+    sum(20, 30);
     }
+
+    static void sum(int x, int y) {
+        System.out.println(x + y);
+        System.out.println(x - y);
+        System.out.println(x / y);
+        System.out.println(x * y);
+    }
+
+
+
 
 
 }
