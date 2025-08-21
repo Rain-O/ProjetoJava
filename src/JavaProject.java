@@ -1,19 +1,16 @@
 public class JavaProject {
-// Condições aula 09
+    // Condições aula 09
     //Calculadora
     public static void main(String[] args) {
-    String operacao = args[0];
-    int num1 = Integer.parseInt(args[1]);
-    int num2 = Integer.parseInt(args[2]);
-
-    switch (operacao.toUpperCase()){
-        case "SOMA":
-            System.out.println("Resultado: " + (num1 + num2));
-            break;
-        default:
-            System.out.println("Operação inválida. Use: Soma, Subtracao, Multiplicacao, Divisao.");
+        String operation = args[0];
+        int x = Integer.parseInt(args[1]);
+        int y = Integer.parseInt(args[2]);
+    if (operation.equals("Soma")){
+        sum(x, y);
     }
-        }
-
-
     }
+    static void sum(int x, int y){
+        System.out.println(x + y);
+    }
+
+}
