@@ -1,20 +1,11 @@
 public class JavaProject {
-// Funções aula 07
+// Argumentos aula 08
     public static void main(String[] args) {
-    int number = 10;
-    sum(10, 15);
-    sum(15, 20);
-    sum(20, 30);
+    System.out.println("Ola " + args[0]);
+    System.out.println(args[1]);
+
+
     }
-
-    static void sum(int x, int y) {
-        System.out.println(x + y);
-        System.out.println(x - y);
-        System.out.println(x / y);
-        System.out.println(x * y);
-    }
-
-
 
 
 
